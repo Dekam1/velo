@@ -23,7 +23,7 @@ export default function Signin() {
             password: password
         }
 
-        signin(userDate, () => navigate('/', { replace: true }))
+        signin(userDate, () => navigate('/velo', { replace: true }))
     }
 
     return (

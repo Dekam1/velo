@@ -13,7 +13,7 @@ export default function Header() {
     const emptyOrder = !Object.keys(user).length;
 
     const handleClick = () => {
-        signout(() => navigate('/', { replace: true }));
+        signout(() => navigate('/velo', { replace: true }));
     }
 
     return (
@@ -21,7 +21,7 @@ export default function Header() {
             <div className="container">
                 <div className={style.header_wrapper}>
                     <div className={style.header_logo}>
-                        <Link to='/'>
+                        <Link to='/velo'>
                             <img width={100} src={logo} alt="logo"></img>
                         </Link>
                     </div>

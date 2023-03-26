@@ -63,7 +63,7 @@ export default function EditOfficer({ firstName, lastName, approved, _id }) {
                 <option value={true}>Сотрудник</option>
                 <option value={false}>Не сотрудник</option>
             </select>
-            <input type='submit'></input>
+            <input className='edit_officer_submit' type='submit'></input>
         </form>
     )
 }

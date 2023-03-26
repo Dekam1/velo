@@ -523,7 +523,7 @@ main {
     color: #118ab2;
     font-size: 40px;
   }
-  
+
   .officer {
     display: flex;
     flex-direction: column;
@@ -549,5 +549,47 @@ main {
         background: #780000;
       }
     }
+  }
+}
+
+.edit_officer_form {
+  padding: 30px 20px;
+  width: 30%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px rgb(0 0 0 / 20%);
+
+  & select {
+    margin-top: 10px;
+    padding: 7px 5px;
+  }
+
+  & label {
+    margin-bottom: 10px;
+    & input {
+      display: block;
+      margin-top: 10px;
+      padding: 7px 5px;
+      font-size: 15px;
+      border-radius: 5px;
+      width: 100%;
+      outline: none;
+      border: 1px solid gray;
+    }
+  }
+
+  .edit_officer_submit {
+    margin-top: 50px;
+    padding: 10px 0px;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 15px;
+    background: #2ec4b6;
+    border: none;
+    transition: 0.5s ease all;
   }
 }

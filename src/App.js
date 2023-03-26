@@ -22,7 +22,7 @@ function App() {
     <Context.Provider value={{ user, setUser, loading, token, setLoading }}>
       <AuthProvider token={token} setUser={setUser} setLoading={setLoading} >
         <Routes>
-          <Route exact path='/' element={<Main />} />
+          <Route exact path='/velo' element={<Main />} />
           <Route path='/reportAll' element={<Signup />} />
           <Route path='/signin' element={<Signin />} />
           <Route path='/signup' element={<Signup />} />
